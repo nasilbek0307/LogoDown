@@ -1,0 +1,226 @@
+.container {
+  max-width: 1441px;
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 20px;
+  background-color: #fff;
+}
+.site-header .container {
+  width: 90%;
+  margin: 0 auto;
+}
+.site-header .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header .container .row .logo {
+  color: #000;
+  text-transform: uppercase;
+}
+.site-header .container .row .nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+.site-header .container .row .nav-list .nav-item:not(:last-child) {
+  margin-right: 25px;
+}
+.site-header .container .row .nav-list .nav-item .nav-link {
+  color: #000;
+  display: flex;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.site-header .container h1 {
+  font-family: Poppins;
+  color: var(--text-text-primary, #2A2A2A);
+  text-align: center;
+  font-size: 50.34px;
+  font-style: normal;
+  font-weight: 600;
+}
+.site-header .container p {
+  color: var(--text-text-secondary, #2B2B2B);
+  text-align: center;
+  /* Fonts/Body Text */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+.site-header .container .btn1 {
+  margin-left: 50px;
+  border-radius: 67px;
+  display: flex;
+  width: 251px;
+  background-color: rgb(40, 94, 103);
+  justify-content: center;
+}
+.site-header .container .btn1 h1 {
+  color: var(--surface-surface-primary, #FFF);
+  text-align: center;
+  /* Fonts/Heading 5 */
+  font-family: Poppins;
+  font-size: 21.33px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 112.518% */
+}
+.site-header .container .site-imag {
+  display: flex;
+  margin-top: 56px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.sec2 {
+  width: 1300px;
+  height: 389px;
+  margin-top: 100px;
+  padding: 48px 112px 0px 112px;
+  border-radius: 12px;
+  gap: 5px;
+  background-color: rgb(244, 244, 244);
+}
+.sec2 .sec-tex {
+  display: flex;
+  gap: 69px;
+}
+.sec2 h1 {
+  height: 46px;
+  flex: 1 0 0;
+  color: var(--text-text-secondary, #2B2B2B);
+  font-family: Poppins;
+  font-size: 50.52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+  /* 122.724% */
+}
+.sec2 p {
+  width: 260px;
+  height: 110.538px;
+  align-self: stretch;
+  color: var(--text-text-secondary, #2B2B2B);
+  /* Fonts/Body Text */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+.sec2 .pic1 {
+  position: relative;
+  left: 169px;
+  bottom: 41px;
+  right: 191px;
+}
+
+.sec3 {
+  margin-top: 100px;
+  display: flex;
+  display: flex;
+  align-items: center;
+  gap: 53px;
+  align-self: stretch;
+  margin-left: 70px;
+}
+.sec3 h1 {
+  height: 70px;
+  flex-shrink: 0;
+  align-self: stretch;
+  color: var(--text-text-secondary, #2B2B2B);
+  font-family: Poppins;
+  font-size: 50.52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+  /* 122.724% */
+}
+.sec3 p {
+  height: 83px;
+  flex-shrink: 0;
+  align-self: stretch;
+  color: var(--text-text-secondary, #2B2B2B);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+.sec3 .sec-icon {
+  display: flex;
+  gap: 23px;
+}
+.sec3 .sec-icon img {
+  margin-top: 13px;
+  widows: 52px;
+  height: 52px;
+  display: flex;
+  align-items: flex-start;
+  gap: 23px;
+  align-self: stretch;
+}
+.sec3 .sec-icon p {
+  height: 52px;
+  flex: 1 0 0;
+  color: var(--text-text-secondary, #2B2B2B);
+  /* Fonts/Body Text */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+
+.sec4 {
+  width: 1300px;
+  height: 541px;
+  margin-top: 100px;
+  padding: 56px 110px 56px 114px;
+  border-radius: 12px;
+  gap: 237px;
+  background-color: rgb(244, 244, 244);
+  display: flex;
+}
+.sec4 h1 {
+  color: var(--text-text-secondary, #2B2B2B);
+  margin-top: 100px;
+  /* Fonts/Heading 2 */
+  font-family: Poppins;
+  font-size: 50.52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  /* 59.382% */
+}
+.sec4 .sec-tex {
+  display: flex;
+  gap: 69px;
+  padding-top: 62px;
+  margin-top: 100px;
+}
+.sec4 .sec-tex p {
+  width: 237px;
+  height: 110.538px;
+  align-self: stretch;
+  color: var(--surface-surface-invert, #2A2A2A);
+  /* Fonts/Body Text */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}/*# sourceMappingURL=style.css.map */
